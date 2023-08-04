@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Para Emily</title>
+    <meta charset="UTF-8"> <!-- Adiciona a codificação de caracteres UTF-8 -->
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Conexão com o arquivo CSS -->
+    <style>
+        /* Seus estilos CSS aqui */
+    </style>
+</head>
+<body>
+    <div class="title-box">
+        <h1 style="margin-bottom: 10px;">Para Emily</h1>
+    </div>
+    <div class="message-box">
+        <p>Então, eu fiquei muito feliz que você dedicou seu tempo fazendo um presentinho pra mim, eu gostei bastante, de verdade, muito obrigado. Eu não sou muito bem o cara que faz mensagens fofinhas, eu sou mais o cara que te explica como funciona a teoria da relatividade especial, mas eu queria te retribuir de alguma forma, então eu decidi usar minha maior arma ao meu favor, ser nerd.</p>
+    </div>
+    <div class="image-box">
+        <img src="eddzinho1.png" alt="Imagem Eddzinho" />
+    </div>
+    <div class="t2-box">
+        <p>Eu pensei, bem, o que eu posso substituir o papel....um arquivo HTML! E todos os desenhos ? Simples, eu usei CSS3.</p>
+        <p>(Só pra explicar, HTML e CSS são duas linguagens de marcação viu &lt;3)</p>
+        <p>E o desenho do eddzinho segurando o coração, eu fiz ele pelo celular com um app de desenho rs</p>
+    </div>
+    <div class="gif-box">
+        <img src="Gif1.gif" alt="Gif1" />
+        <img src="Gif2.gif" alt="Gif2" />
+    </div>
+    <div class="poem">
+        <p>Agora, um poeminha rs :</p>
+        <p>Em teu olhar, a beleza encontrei,</p>
+        <p>Um mundo de encanto que sempre admirei.</p>
+        <p>Mas em mim, imperfeições enxerguei,</p>
+        <p>Me perguntei por que me aceitaste, indaguei.</p>
+        <p>Cada traço teu, como obra de arte,</p>
+        <p>Enquanto em mim, inseguranças parte,</p>
+        <p>Mas em teu coração, encontro um lugar,</p>
+        <p>Onde me aceitas, mesmo com medos a carregar.</p>
+        <p>Tu és a luz que ilumina minha escuridão,</p>
+        <p>Aceitando-me com carinho e compreensão.</p>
+        <p>Mesmo cheio de falhas, és minha inspiração,</p>
+        <p>Teu amor me mostra o verdadeiro perdão.</p>
+        <p>-eddie</p>
+    </div>
+    <div class="love-text">
+        <p style="font-size: 56px;">EU TE AMO</p>
+        <p class="heart" id="heart">❤️</p>
+    </div>
+    <script>
+        const heart = document.getElementById("heart");
+
+        heart.addEventListener("mouseover", () => {
+            heart.style.transform = "scale(1.2)";
+            heart.style.transition = "transform 0.3s";
+        });
+
+        heart.addEventListener("mouseout", () => {
+            heart.style.transform = "scale(1)";
+        });
+    </script>
+</body>
+</html>

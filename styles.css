@@ -1,0 +1,70 @@
+body {
+    font-family: Courier, monospace;
+    background-color: #BE2444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.title-box, .message-box, .t2-box {
+    background-color: #E9E6D9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.image-box {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.image-box img {
+    max-width: calc(100% - 300px);
+    height: auto;
+    border-radius: 10px;
+}
+
+.gif-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.gif-box img {
+    max-width: 48%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.love-text {
+    font-size: 56px;
+    color: sandybrown;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #E9E6D9;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.heart {
+    font-size: 54px;
+    color: red;
+    margin-top: 10px;
+}
+
+.poem {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #E9E6D9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+}
